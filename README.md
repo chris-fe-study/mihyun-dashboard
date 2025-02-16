@@ -22,6 +22,8 @@ git remote -v
 git add .
 // staged changes -> commit message
 git commit -m "message"
+// commit log 확인
+git log
 // git push
 git push -u origin main
 ```
