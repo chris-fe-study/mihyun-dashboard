@@ -30,6 +30,14 @@ git push -u origin main
 
 ### develop 작업 전
 
+- 원격 주소에 있는 브랜치 동기화
+
+```
+git fetch origin
+```
+
+- 원격에 있는 develop 브랜치에서 로컬 develop 브랜치를 분리
+
 ```zsh
 git checkout -b develop origin/develop
 ```
