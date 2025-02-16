@@ -27,3 +27,9 @@ git log
 // git push
 git push -u origin main
 ```
+
+### develop 작업 전
+
+```zsh
+git checkout -b develop origin/develop
+```
