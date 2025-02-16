@@ -41,3 +41,9 @@ git fetch origin
 ```zsh
 git checkout -b develop origin/develop
 ```
+
+- develop 브랜치에서 feature 브랜치를 분리해서 시작한다.
+
+```
+git checkout -b feature/{#이슈번호}-{작업명}-{작업자}
+```
